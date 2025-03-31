@@ -611,6 +611,33 @@ header {
   padding: 2rem;
 }
 
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-bottom: 9rem;
+}
+
+.experince-head {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experince-head p {
+  font-size: 2.4rem;
+  color: rgb(199, 198, 211);
+  line-height: 1.4;
+}
+
+.experience-section h2 {
+  font-size: 6rem;
+  background: linear-gradient(to right, rgb(225, 186, 197), #e9e9f1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 3.6rem;
+}
+
 .education {
   display: flex;
   flex-direction: column;
